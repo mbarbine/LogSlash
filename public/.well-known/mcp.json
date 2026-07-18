@@ -1,0 +1,7 @@
+﻿{
+  "name": ""logslash",
+  "version": ""1.0.0"",
+  "description": ""MCP discovery manifest for logslash",
+  "apiUrl": ""https://logslash.platphormnews.com/api/mcp"",
+  "protocol": ""json-rpc-2.0"
+}

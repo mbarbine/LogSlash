@@ -1,0 +1,7 @@
+﻿# llms.txt for logslash
+
+- https://logslash.platphormnews.com/
+- https://logslash.platphormnews.com/support
+- https://logslash.platphormnews.com/status
+- https://logslash.platphormnews.com/faq
+- https://logslash.platphormnews.com/api/health
