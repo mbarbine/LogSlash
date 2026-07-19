@@ -1,26 +1,27 @@
-﻿{
-  "openapi": ""3.1.0"",
-  "info": { "title": ""logslash API"", "version": ""1.0.0"" },
-  "servers": [ { "url": ""https://logslash.platphormnews.com"" } ],
-  "paths": {
-    "/api/health": {
-      "get": {
-        "summary": ""Health check"",
-        "operationId": ""getHealth"",
-        "tags": [""Health""],
-        "responses": {
-          "200": { "description": ""Service health"" }
-        }
+{
+  ""openapi"": ""3.1.0"",
+  ""info"": { ""title"": "logslash API" , ""version"": ""1.1.0"", ""description"": ""Public API surface for logslash."" },
+  ""servers"": [ { ""url"": "https://logslash.platphormnews.com" } ],
+  ""paths"": {
+    ""/api/health"": {
+      ""get"": {
+        ""summary"": ""Health check"",
+        ""operationId"": ""getHealth"",
+        ""responses"": { ""200"": { ""description"": ""ok"" } }
       }
     },
-    "/api/v1/health": {
-      "get": {
-        "summary": ""Health check v1"",
-        "operationId": ""getHealthV1"",
-        "tags": [""Health""],
-        "responses": {
-          "200": { "description": ""Service health"" }
-        }
+    ""/api/v1/health"": {
+      ""get"": {
+        ""summary"": ""Health check"",
+        ""operationId"": ""getHealthV1"",
+        ""responses"": { ""200"": { ""description"": ""ok"" } }
+      }
+    },
+    ""/api/mcp"": {
+      ""get"": {
+        ""summary"": ""MCP manifest"",
+        ""operationId"": ""getMcpManifest"",
+        ""responses"": { ""200"": { ""description"": ""ok"" } }
       }
     }
   }

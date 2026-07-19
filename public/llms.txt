@@ -1,7 +1,12 @@
-﻿# llms.txt for logslash
-
-- https://logslash.platphormnews.com/
-- https://logslash.platphormnews.com/support
-- https://logslash.platphormnews.com/status
-- https://logslash.platphormnews.com/faq
-- https://logslash.platphormnews.com/api/health
+# logslash
+https://logslash.platphormnews.com/
+https://logslash.platphormnews.com/support
+https://logslash.platphormnews.com/status
+https://logslash.platphormnews.com/api/health
+https://logslash.platphormnews.com/api/v1/health
+https://logslash.platphormnews.com/api/docs
+https://logslash.platphormnews.com/openapi.json
+https://logslash.platphormnews.com/openapi.yaml
+https://logslash.platphormnews.com/.well-known/mcp.json
+https://logslash.platphormnews.com/.well-known/agents.json
+https://logslash.platphormnews.com/.well-known/agent-policy.json
